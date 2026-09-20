@@ -1,0 +1,105 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  padding: 24px 0;
+  background-color: transparent;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-pill {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background-color: #18181b;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 8px 24px 8px 16px;
+  border-radius: 9999px;
+  backdrop-filter: blur(8px);
+}
+
+.nav-pill-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  transition: background-color 0.3s ease;
+}
+
+.nav-pill-logo:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.nav-pill-logo .icon {
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+}
+
+.nav-pill-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-pill-link {
+  color: #a1a1aa;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-pill-link:hover,
+.nav-pill-link-active {
+  color: #ffffff;
+}
+
+.btn-contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 172px;
+  height: 48px;
+  background-color: #ffffff;
+  color: #09090b;
+  padding: 0 20px;
+  border-radius: 9999px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  top: -12px;
+}
+
+.btn-contact:hover {
+  background-color: #e4e4e7;
+  transform: translateY(-1px);
+}
+
+.btn-contact-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #09090b;
+  border-radius: 50%;
+  padding: 2px;
+}

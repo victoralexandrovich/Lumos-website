@@ -1,0 +1,168 @@
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: unset;
+  background-color: transparent;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.hero-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  gap: 40px;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  color: #e4e4e7;
+  text-transform: uppercase;
+  margin-top: 140px;
+}
+
+.hero-gallery {
+  position: absolute;
+  margin-top: 362px;
+  margin-left: 306px;
+}
+
+.hero-cards {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.hero-card {
+  width: 124px;
+  height: 124px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #18181b;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hero-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-nav {
+  position: absolute;
+  display: flex;
+  gap: 6px;
+  justify-content: flex-end;
+  padding-left: 146px;
+}
+
+.hero-nav-btn {
+  width: 44px;
+  height: 28px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.hero-nav-btn .icon {
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+}
+
+.hero-nav-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #ffffff;
+}
+
+.hero-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #a1a1aa;
+  max-width: 360px;
+  margin: 0;
+}
+
+.hero-right {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.hero-banner {
+  width: 560px;
+  height: 620px;
+  position: relative;
+  background-color: #e4e4e7;
+  padding: 0px;
+
+  -webkit-mask-image: url("../assets/Vector.png");
+  mask-image: url("../assets/Vector.png");
+  -webkit-mask-size: 560px 620px;
+  mask-size: 560px 620px;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+.hero-banner-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+}
+.hero-banner-content {
+  position: relative;
+  z-index: 2;
+}
+.hero-tags {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.hero-tags-row {
+  display: flex;
+  gap: 8px;
+}
+
+.hero-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  background-color: rgba(24, 24, 27, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+  font-size: 13px;
+  color: #ffffff;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  white-space: nowrap;
+}

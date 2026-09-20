@@ -1,0 +1,36 @@
+.icon {
+  display: inline-block;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  background-color: currentColor;
+  flex-shrink: 0;
+}
+
+.icon-lamp {
+  mask-image: url("../icons/lamp-logo.svg");
+  -webkit-mask-image: url("../icons/lamp-logo.svg");
+}
+
+.icon-arrow-left {
+  mask-image: url("../icons/arrow-left.svg");
+  -webkit-mask-image: url("../icons/arrow-left.svg");
+}
+
+.icon-arrow-right {
+  mask-image: url("../icons/arrow-right.svg");
+  -webkit-mask-image: url("../icons/arrow-right.svg");
+}
+
+.icon-arrow-up-right {
+  mask-image: url("../icons/arrow-up-right.svg");
+  -webkit-mask-image: url("../icons/arrow-up-right.svg");
+}
+
+.icon-heart {
+  mask-image: url("../icons/heart.svg");
+  -webkit-mask-image: url("../icons/heart.svg");
+}
